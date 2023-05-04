@@ -49,6 +49,7 @@ const modelMap = {
     [MODEL.HF_PYTHIA_12B]: 'EleutherAI/pythia-12b',
     [MODEL.HF_PYTHIA_160M]: 'EleutherAI/pythia-160m',
     [MODEL.HF_PYTHIA_70M]: 'EleutherAI/pythia-70m',
+    [MODEL.HF_STABLE_VICUNA_13B_DELTA]: 'CarperAI/stable-vicuna-13b-delta'
 }
 
 export class Huggingface {
@@ -90,7 +91,8 @@ export class Huggingface {
             MODEL.HF_STABLE_LM_7B,
             MODEL.HF_PYTHIA_12B,
             MODEL.HF_PYTHIA_160M,
-            MODEL.HF_PYTHIA_70M
+            MODEL.HF_PYTHIA_70M,
+            MODEL.HF_STABLE_VICUNA_13B_DELTA
         ];
     }
 
